@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Leckerli+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-brand{
+    font-family: "Leckerli One", cursive;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-brand:hover{
+    color: rgb(0, 0, 0);
+    
+}
+
+.nav-link{
+    font-family: "Josefin Sans", sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: rgb(252, 164, 0);
+    transition: all 0.3s ease;
+}
+
+.nav-link.active{
+    border-bottom: 3px solid orange;
+    font-weight: bold;
+}
+
+
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: rgb(12, 12, 12);
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 194, 27);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+h2{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+p{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.care{
+    background-color: black;
+    color: white;
+}
+
+.care h1{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.care h5{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.care p{
+    margin: 0;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateY(50%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.fa-brands{
+    font-size: 2rem;
+    cursor: pointer;
+    padding-right: 6px;
+}
+
+.alamak {
+    color:inherit;
+}
+
+.alamak:hover{
+    color: rgb(255, 132, 18);
+    transition: 0.4s;
+}
+
+
